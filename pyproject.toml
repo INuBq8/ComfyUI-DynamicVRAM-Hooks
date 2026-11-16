@@ -1,0 +1,22 @@
+[project]
+name = "dynamicvram-hooks"
+description = "Workaround that lets ComfyUI's LoRA hooks run on Dynamic VRAM instead of falling back to a slow full-load copy. 466 s -> 203 s in a tiled-upscale workflow, same images."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+classifiers = [
+    "Operating System :: OS Independent",
+    "Environment :: GPU :: NVIDIA CUDA",
+]
+
+[project.urls]
+Repository = "https://github.com/INuBq8/ComfyUI-DynamicVRAM-Hooks"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/INuBq8/ComfyUI-DynamicVRAM-Hooks#readme"
+"Bug Tracker" = "https://github.com/INuBq8/ComfyUI-DynamicVRAM-Hooks/issues"
+
+[tool.comfy]
+PublisherId = "inubq8"
+DisplayName = "DynamicVRAM Hooks"
+includes = []
+requires-comfyui = ">=0.45.0"

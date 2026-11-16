@@ -94,9 +94,13 @@ In the real USDU workflow, the hook LoRAs were confirmed visually to be applied 
 
 ## Install
 
+Install it from **ComfyUI-Manager** / the [Comfy Registry](https://registry.comfy.org) by searching for `dynamicvram-hooks`.
+
+To install manually instead:
+
 ```
 cd ComfyUI/custom_nodes
-git clone <this repo> ComfyUI-DynamicVRAM-Hooks
+git clone https://github.com/INuBq8/ComfyUI-DynamicVRAM-Hooks
 ```
 
 Restart ComfyUI. With Dynamic VRAM enabled (the default), the startup log shows:
